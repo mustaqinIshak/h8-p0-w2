@@ -1,0 +1,48 @@
+START program
+STORE "m" with any value
+STORE "a" with any value
+STORE "EF" without any value
+
+CALCULATE "m" times "a";
+SET "EF" value with calculate result
+DISPLAY "EF"
+END program
+
+START program
+STORE "tahun" with any years
+
+IF "tahun" modulo 4 is 0 
+Then "tahun" modulo 100 is 1
+
+or
+
+IF "tahun" modulo 4 is 0
+then
+IF "tahun" modulo 100 is 0
+then
+IF "tahun" modulo 400 is 0
+
+DISPLAY "tahun kabisat"
+ELSE "bukan tahun kabisat"
+END program
+
+START program
+STORE "jumlah pakaian" with 0
+
+while "jumlah pakaian" < 20
+ADD "jumlah pakaian" by 1
+
+DISPLAY "mesin cuci akan mencuci pakaian"
+END program
+
+START program
+STORE "siswa" with 40
+
+WHILE "siswa" < 40
+IF "siswa" is "kukunya Panjang"
+DISPLAY "siswa mendapatkan hukuman"
+ELSE
+DISPLAY "siswa mendapatkan pujian"
+END program
+
+
