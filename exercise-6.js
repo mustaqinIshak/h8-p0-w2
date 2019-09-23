@@ -50,3 +50,8 @@ for(let i = 1; i <= 100; i+=5){
     console.log(i + " KELIPATAN 6") 
   }
 }
+for(let i = 1; i <= 100; i+=9){
+    if(i % 10 == 0){
+      console.log(i + " KELIPATAN 10") 
+    }
+  }
