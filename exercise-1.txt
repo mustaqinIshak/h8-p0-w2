@@ -1,3 +1,5 @@
+nomor 1
+
 START program
 STORE "m" with any value
 STORE "a" with any value
@@ -7,6 +9,9 @@ CALCULATE "m" times "a";
 SET "EF" value with calculate result
 DISPLAY "EF"
 END program
+
+
+nomor 2
 
 START program
 STORE "tahun" with any years
@@ -26,6 +31,9 @@ DISPLAY "tahun kabisat"
 ELSE "bukan tahun kabisat"
 END program
 
+
+nomor 3
+
 START program
 STORE "jumlah pakaian" with 0
 
@@ -34,6 +42,9 @@ ADD "jumlah pakaian" by 1
 
 DISPLAY "mesin cuci akan mencuci pakaian"
 END program
+
+
+nomor 4
 
 START program
 STORE "siswa" with 40
