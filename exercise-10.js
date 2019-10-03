@@ -1,7 +1,7 @@
 function bandingkanAngka(angka1, angka2) {
     // you can only write your code here!
     if(angka1 === angka2){
-      return "-1"
+      return -1
     } else if(angka2 > angka1){
       return true
     } else {

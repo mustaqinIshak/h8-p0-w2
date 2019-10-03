@@ -7,7 +7,7 @@ function konversiMenit(menit) {
       return (jam +":0"+ detik)
     } else {
        return (jam +":"+ detik)
-    }  
+    } 
 }
 
 // TEST CASES
